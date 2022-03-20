@@ -1,0 +1,94 @@
+body{
+    background: #DACC96;
+}
+/* Navbar */
+.navbar-brand{
+    font-family: Viga;
+    font-size: 30px;
+
+}
+/* end */
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    height: 640px;
+
+}
+.jumbotron .display-4{
+    font-family: Viga; 
+    color: white;   
+}
+.lead{
+    font-family: Verdana;
+    color: white; 
+}
+/* end */
+
+/* Utility */
+.tombol{
+    text-transform: uppercase;
+    border-radius: 43px;
+    background-color: #E2C275;
+}
+.card{
+    background-color: #FFF9B6
+}
+.card-title{
+    font-family: Viga;
+}
+.width{
+    width: 300px;
+    justify-content: center;
+}
+/* end */
+
+/* Blog */
+.display-5{
+    font-family: Viga;
+}
+/* end */
+
+/* About */
+.justify-content-center{
+    font-family: Verdana;
+}
+/* end */
+
+/* contact us*/
+.Contact{
+    font-family: Viga;
+}
+.email{
+    text-align: left;
+    font-family: Verdana;
+}
+.choose{
+    text-align: left;
+    font-family: Verdana;
+}
+.button{
+    text-align: left;
+    font-family: Verdana;
+}
+/* end */
+
+
+/* Desktop vers */
+@media (min-width: 992px) {
+ .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    } 
+
+    .nav-link:hover{
+        border-bottom: 3px solid #e0e4cc;
+    }
+
+    .jumbotron{
+        margin-top: -80px;
+    }
+/* end */
+
+ }
